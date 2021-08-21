@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body{
+    margin: 0;
+    background: #089a9a;
+    font-family: 'Orelega One', cursive;
+}
+html{
+    margin: 0;
+}
+
+:root{
+    --dark-blue : #0c7070;
+    --faint-blue: #76e7d8;
+}
+
+.header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cashCalculation{
+position: absolute;
+top: 40%;
+left: 50%;
+transform:  translate(-50% ,-50%);
+margin-top: 0;
+}
+
+.cashCalculation > input{
+    width: 200px;
+    height:30px;
+    border-radius:5px;
+    border-style: none;
+}
+
+.submitBtn{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.changeReturn{
+    margin-top: 250px;
+}
+
+.label{
+    text-align: center;
+}
+
+#output{
+    margin: 1rem 0;    
+}
+
+#output table, th, td{
+    padding: 0.2rem;
+    color: var(--dark-green);
+    background-color:var(--faint-blue);
+    border: 2px solid var(--dark-blue) ;
+    border-collapse: collapse;
+}
+.noOfNotes{
+    background-color:white;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
